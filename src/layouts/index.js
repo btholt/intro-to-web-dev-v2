@@ -5,6 +5,7 @@ import Helmet from "react-helmet";
 
 import "bootstrap/dist/css/bootstrap.css";
 import "prismjs/themes/prism-solarizedlight.css";
+import "code-mirror-themes/themes/monokai.css";
 import "./index.css";
 
 const Header = () => (

@@ -34,7 +34,7 @@ Tags are also opened and and closed in a specific order too. The most recently o
 
 The above is correct.
 
-```html
+```htm
 <div>
   <h1>
     Hi
@@ -75,5 +75,91 @@ I've embedded a little widget here for you to play with the HTML elements we've 
 
 On the left, you'll see the HTML that you can edit. On the right you'll see what that HTML looks like as if it was being run on a website. You can edit the left pane and on the right pane you'll instantly see it being displayed. Take some time to toy around with it and see what happens when you edit it and rearrange things. Learning comes easily during play. We'll get to making our own websites from scratch but this is a good place to start with and not get burdened down with some of the details.
 
-<iframe height='476' scrolling='no' title='HTML Playground' src='//codepen.io/btholt/embed/mxQGVB/?height=476&theme-id=dark&default-tab=html,result&embed-version=2&editable=true' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'>See the Pen <a href='https://codepen.io/btholt/pen/mxQGVB/'>HTML Playground</a> by Brian Holt (<a href='https://codepen.io/btholt'>@btholt</a>) on <a href='https://codepen.io'>CodePen</a>.
-</iframe>
+```html
+<!-- links -->
+<div>
+  <a href="https://www.frontendmasters.com">Frontend Masters</a>
+  <a href="https://aka.ms/visual-studio-code">Visual Studio Code</a>
+  <a href="https://www.codepen.io">CodePen</a>
+</div>
+
+<!-- header -->
+<div>
+  <h1>This is an h1!</h1>
+  <h2>This is an h2!</h2>
+  <h3>This is an h3!</h3>
+  <h4>This is an h4!</h4>
+  <h5>This is an h5!</h5>
+  <h6>This is an h6!</h6>
+</div>
+
+<!-- text empasis -->
+<div>
+  <strong>This text is strong.</strong>
+  <em>This text is emphasized.</em>
+</div>
+
+<!-- paragraphs -->
+<div>
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt modi est sapiente in optio quia inventore quis maxime ullam tenetur?</p>
+  <p>Maxime quibusdam, dolorum quaerat ducimus inventore sunt pariatur et ea dolore ipsam. Distinctio eum nobis officiis quam quasi exercitationem eaque?</p>
+  <p>Tempore quaerat odit sit rem nihil eligendi error quisquam, natus deleniti molestias voluptate nobis, amet repellendus. Aliquam deserunt quia impedit.</p>
+  <p>Doloremque expedita earum quidem pariatur amet. Officia ex corporis, repellendus ipsa, cumque quia at voluptas, iste harum dolor debitis labore?</p>
+  <p>Et quisquam sit nemo ipsam aliquid provident, ullam eligendi aspernatur placeat fuga nostrum molestiae ab nobis obcaecati nesciunt cupiditate neque.</p>
+</div>
+
+<!-- images -->
+<div>
+  <img src="http://www.placepuppy.net/1p/100/100" alt="an adorable puppy" />
+  <img src="http://www.placepuppy.net/2p/100/100" alt="an adorable puppy" />
+  <img src="http://www.placepuppy.net/3p/100/100" alt="an adorable puppy" />
+</div>
+
+<!-- inputs -->
+<div>
+  <input /> <!-- with a trailing slash -->
+  <input> <!-- without a trailing slash; it's the same thing -->
+  <input type="color" />
+  <input type="file" />
+  <input type="number" />
+  <input type="datetime-local" />
+  <input type="radio" />
+  <input type="checkbox" />
+</div>
+
+<!-- textarea -->
+<div>
+  <textarea></textarea>
+</div>
+
+<!-- select -->
+<div>
+  <select>
+    <option value="seattle">Seattle</option>
+    <option value="portland">Portland</option>
+    <option value="san-francisco">San Francisco</option>
+  </select>
+</div>
+
+<!-- buttons -->
+<div>
+  <button>Click me! I don't do anything</button>
+</div>
+
+<!-- table -->
+<table>
+  <tr>
+    <td>(0,0)</td>
+    <td>(1,0)</td>
+  </tr>
+  <tr>
+    <td>(0,1)</td>
+    <td>(1,1)</td>
+  </tr>
+</table>
+
+<!-- for fun -->
+<div>
+  <marquee>This is a really old feature that only works in some browsers. You should never use it for a real website.</marquee>
+</div>
+```

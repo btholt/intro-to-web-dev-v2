@@ -6,8 +6,10 @@
   "private": true,
   "dependencies": {
     "bootstrap": "^4.0.0-beta.3",
+    "code-mirror-themes": "^1.0.0",
     "gatsby": "^1.9.145",
     "gatsby-link": "^1.6.32",
+    "gatsby-plugin-klipse": "^2.1.0",
     "gatsby-plugin-react-helmet": "^1.0.8",
     "gatsby-remark-autolink-headers": "^1.4.17",
     "gatsby-remark-images": "^1.5.36",

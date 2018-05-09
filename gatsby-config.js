@@ -26,6 +26,23 @@ module.exports = {
           }
         ]
       }
+    },
+    {
+      resolve: "gatsby-plugin-klipse",
+      options: {
+        klipseSettings: {
+          selector_eval_js: ".language-javascript",
+          selector_eval_html: ".language-html",
+          codemirror_options_in: {
+            lineWrapping: true,
+            lineNumbers: true
+          },
+          codemirror_options_out: {
+            lineWrapping: true,
+            lineNumbers: true
+          }
+        }
+      }
     }
   ]
 };

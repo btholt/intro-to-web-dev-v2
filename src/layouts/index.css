@@ -43,4 +43,66 @@
   padding: 15px;
   background-color: #fff;
   border-radius: 8px;
+  overflow: scroll;
+}
+
+.blog-post p {
+  clear: both;
+}
+
+.klipse-result {
+  border: 1px solid #90b4fe;
+  padding-top: 8px;
+  position: relative;
+  width: 50%;
+}
+
+.klipse-result .CodeMirror-wrap {
+  width: 100%;
+  border-color: transparent;
+}
+
+.klipse-result::before {
+  content: "result";
+  background-color: white;
+  position: absolute;
+  top: -13px;
+}
+
+.language-htm,
+.language-css,
+.language-js {
+  width: 100%;
+}
+
+.gatsby-highlight {
+  /* border: 1px solid black; */
+  padding: 4px;
+  border-radius: 4px;
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+}
+
+.CodeMirror-wrap {
+  width: 50%;
+  border-right: none;
+  font-size: 12px;
+  height: inherit;
+}
+
+.CodeMirror-gutters {
+  height: inherit !important;
+}
+
+.klipse-snippet > .CodeMirror {
+  border: none;
+  width: 100%;
+}
+
+.gatsby-highlight > .klipse-snippet {
+  border: 1px solid #90b4fe;
+  width: 50%;
+  border-right: none;
+  position: relative;
 }
