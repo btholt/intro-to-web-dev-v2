@@ -18,8 +18,8 @@ console.log(finalAnswer);
 This isn't super useful but hopefully it shows you the mechanics of how a function works. We created a function called `addTwo`. This function takes in one parameter, `number` and it returns that number with 2 added to it. We can now use that `addTwo` function as much as we want! Let's make a something a bit more useful.
 
 ```javascript
-function greet(firstName, lastName, honorium, greeting) {
-  return `${greeting} ${honorium} ${lastName}! I’m extremely pleased you could join us, ${firstName}! I hope you enjoy your stay, ${honorium} ${lastName}.`;
+function greet(firstName, lastName, honorific, greeting) {
+  return `${greeting} ${honorific} ${lastName}! I’m extremely pleased you could join us, ${firstName}! I hope you enjoy your stay, ${honorific} ${lastName}.`;
 }
 
 console.log(greet("Brian", "Holt", "Lord", "Salutations"));
