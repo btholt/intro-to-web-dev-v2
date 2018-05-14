@@ -24,12 +24,12 @@ const TemplateWrapper = ({ children }) => (
         {
           name: "description",
           content:
-            "Learn the basics of Computer Science in Five Hours using JavaScript!"
+            "Learn how to be a web developer! In this course we go over the basics of HTML, CSS, JavaScript, and other tools to learn how to be programmer."
         },
         {
           name: "keywords",
           content:
-            "computer science, javascript, cs, bloom filters, algorithms, sorting"
+            "computer science, javascript, css, html, web, web developer, web dev, cloud, node, node.js"
         }
       ]}
     />

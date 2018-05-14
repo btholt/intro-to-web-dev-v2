@@ -18,7 +18,7 @@ export default function Template({ data }) {
       </Link>
     ) : null;
   const nextLink =
-    frontmatter.order < allMarkdownRemark.edges.length ? (
+    frontmatter.order < allMarkdownRemark.edges.length - 1 ? (
       <Link
         className="next"
         to={

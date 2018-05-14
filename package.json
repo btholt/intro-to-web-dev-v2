@@ -1,6 +1,6 @@
 {
   "name": "intro-to-web-dev-v2",
-  "description": "Gatsby default starter",
+  "description": "Intro to Web Dev v2",
   "version": "1.0.0",
   "author": "Brian Holt <btholt+intro.web.dev@gmail.com>",
   "private": true,
@@ -16,7 +16,6 @@
     "gatsby-remark-prismjs": "^2.0.1",
     "gatsby-source-filesystem": "^1.5.11",
     "gatsby-transformer-remark": "^1.7.28",
-    "gh-pages": "^1.1.0",
     "prismjs": "^1.14.0"
   },
   "keywords": [
@@ -28,11 +27,12 @@
     "build": "gatsby build --prefix-paths",
     "deploy": "npm -s run build && gh-pages -d ./public -b gh-pages",
     "develop": "gatsby develop",
-    "format": "prettier --trailing-comma es5 --no-semi --single-quote --write \"src/**/*.js\"",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "format": "prettier --trailing-comma es5 --no-semi --single-quote --write \"src/**/*.js\""
   },
   "devDependencies": {
     "eslint": "^4.14.0",
+    "gatsby-cli": "^1.1.52",
+    "gh-pages": "^1.1.0",
     "prettier": "^1.9.2"
   },
   "repository": {
