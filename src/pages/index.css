@@ -42,14 +42,14 @@ body {
   border-left-color: transparent;
 }
 
-.blog-post-content table {
+.lesson-content table {
 }
 
-.blog-post-content td {
+.lesson-content td {
   border: 1px solid black;
   padding: 8px;
 }
 
-.blog-post-content td input {
+.lesson-content td input {
   min-width: 300px;
 }

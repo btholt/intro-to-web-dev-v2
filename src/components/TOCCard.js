@@ -4,7 +4,7 @@ import Link from "gatsby-link";
 import "./TOCCard.css";
 
 const LessonCard = ({ content, title }) => (
-  <div className="lesson">
+  <div className="main-card">
     <h1 className="lesson-title gradient">{title}</h1>
     <div className="lesson-content">
       <ol>

@@ -1,27 +1,27 @@
 .gradient {
   /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f29d9b+0,efdbb6+51,cbe8f0+100 */
-  background: #f29d9b; /* Old browsers */
+  background: #0074d9; /* Old browsers */
   background: -moz-linear-gradient(
     45deg,
-    #f29d9b 0%,
-    #efdbb6 51%,
-    #cbe8f0 100%
+    #0074d9 0%,
+    #39cccc 51%,
+    #0074d9 100%
   ); /* FF3.6-15 */
   background: -webkit-linear-gradient(
     45deg,
-    #f29d9b 0%,
-    #efdbb6 51%,
-    #cbe8f0 100%
+    #0074d9 0%,
+    #39cccc 51%,
+    #0074d9 100%
   ); /* Chrome10-25,Safari5.1-6 */
   background: linear-gradient(
     45deg,
-    #f29d9b 0%,
-    #efdbb6 51%,
-    #cbe8f0 100%
+    #0074d9 0%,
+    #39cccc 51%,
+    #0074d9 100%
   ); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
   filter: progid:DXImageTransform.Microsoft.gradient(
-      startColorstr="#f29d9b",
-      endColorstr="#cbe8f0",
+      startColorstr="#0074d9",
+      endColorstr="#39cccc",
       GradientType=1
     ); /* IE6-9 fallback on horizontal gradient */
 }
@@ -34,11 +34,27 @@
   z-index: 10;
 }
 
-.navbar-brand {
+.jumbotron.gradient {
+  color: white;
   text-transform: uppercase;
+  font-weight: bold;
 }
 
-.blog-post {
+.navbar-brand.navbar-brand {
+  text-transform: uppercase;
+  color: white;
+  font-weight: bold;
+}
+
+.navbar-brand.navbar-brand:hover {
+  color: #aaa;
+}
+
+.navbar-brand.navbar-brand:focus {
+  color: white;
+}
+
+.lesson {
   margin: 15px;
   padding: 15px;
   background-color: #fff;
@@ -46,8 +62,27 @@
   overflow: scroll;
 }
 
-.blog-post p {
+.lesson p {
   clear: both;
+}
+
+.lesson-links {
+  font-size: 18px;
+  padding: 15px 0;
+}
+
+.next {
+  float: right;
+}
+
+.prev {
+  float: left;
+}
+
+.lesson-title {
+  color: white;
+  text-transform: uppercase;
+  font-weight: bold;
 }
 
 .klipse-result {
