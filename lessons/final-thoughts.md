@@ -26,5 +26,5 @@ Finally, I asked my Twitter followers for any words of encouragement. You have s
 
 # Thank You ❤️ ️
 
-[tweets]: /tweets
+[tweets]: https://btholt.github.io/intro-to-web-dev-v2/tweets/
 [gh]: https://github.com/btholt/intro-to-web-dev-v2
