@@ -149,3 +149,4 @@ You've made two projects so far: the calculator and the News Times site. Put bot
 [nina]: https://frontendmasters.com/courses/git-in-depth/
 [gh]: https://github.com/
 [course]: https://github.com/btholt/intro-to-web-dev-v2
+[pr]: https://github.com/btholt/pull-requests
