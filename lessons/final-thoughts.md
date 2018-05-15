@@ -22,9 +22,8 @@ My final advice for you:
 
 Please give this course a star on GitHub if you liked it. It helps make it more visible to others and gives it credibility. [Click here][gh] and click the star in the top right. Thanks.
 
-Finally, I asked my Twitter followers for any words of encouragement. Click on the tweet and see what people had to say.
-
-<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Hey! I&#39;m teaching an intro to web dev course on <a href="https://twitter.com/FrontendMasters?ref_src=twsrc%5Etfw">@FrontendMasters</a> on Tuesday &amp; on the last section I want tweets of encouragement for new devs. Could you respond to this tweet with advice &amp; encouragement to a newly minted developer? Speak directly to them: &quot;You are awesome&quot; etc.</p>&mdash; Brian Holt (@holtbt) <a href="https://twitter.com/holtbt/status/995811639277510657?ref_src=twsrc%5Etfw">May 13, 2018</a></blockquote>
-<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+Finally, I asked my Twitter followers for any words of encouragement. You have seen some below, cheering you on as you went. [Here][tweets] is a full of list. You deserve all the praise we can give for getting here.
 
 # Thank You ❤️ ️
+
+[tweets]: tweets

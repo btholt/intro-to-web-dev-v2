@@ -53,3 +53,15 @@ body {
 .lesson-content td input {
   min-width: 300px;
 }
+
+.lesson-flex {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.random-tweet {
+  width: 100%;
+  margin-top: 100px;
+}

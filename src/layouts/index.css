@@ -89,7 +89,7 @@
   border: 1px solid #90b4fe;
   padding-top: 8px;
   position: relative;
-  width: 50%;
+  width: 100%%;
 }
 
 .klipse-result .CodeMirror-wrap {
@@ -118,14 +118,15 @@
   border-radius: 4px;
   display: flex;
   justify-content: space-between;
+  flex-direction: column;
   align-items: stretch;
 }
 
 .CodeMirror-wrap {
-  width: 50%;
-  border-right: none;
+  width: 100%;
   font-size: 12px;
   height: inherit;
+  margin-bottom: 12px;
 }
 
 .CodeMirror-gutters {
@@ -139,9 +140,10 @@
 
 .gatsby-highlight > .klipse-snippet {
   border: 1px solid #90b4fe;
-  width: 50%;
+  width: 100%;
   border-right: none;
   position: relative;
+  margin-bottom: 15px;
 }
 
 .doggos {
