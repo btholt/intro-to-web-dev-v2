@@ -61,7 +61,7 @@ The key here is the `<link rel="stylesheet" href="./style.css" />`. Let's break 
 
 ## When to Actually Use the Cascade
 
-Before I told you to use the cascade as little as possible, but I did want to share with you when it can be useful to use. Image we have the following thhree buttons:
+Before I told you to use the cascade as little as possible, but I did want to share with you when it can be useful to use. Imagine we have the following three buttons:
 
 ```html
 <style>
