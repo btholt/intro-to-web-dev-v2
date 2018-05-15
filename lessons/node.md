@@ -34,9 +34,9 @@ The browser just knows to look for it at that URL. In our case we're not serving
 
 So let's unpack our Node server a bit more.
 
-* Node is all still using CommonJS for its modules (the old of doing it that we refactored before.) That's why we're using `require`.
-* We require in the `http` module which is a module baked into Node. This is the module that we use to do all the necessary communication to be able to run a web server. Think of this like the phone at the pizza place. It allows to listen to requests and then respond to them.
-* The `http.createServer` method does exactly what you think it does: it creates a server! It takes a function as a callback and this function will be run every time a user makes a request to that server.
+* Node is still using CommonJS for its modules (the old way of doing it that we refactored before.) That's why we're using `require`.
+* We require in the `http` module which is a module baked into Node. This is the module that we use to do all the necessary communication to be able to run a web server. Think of this like the phone at the pizza place. It allows us to listen to requests and then respond to them.
+* The `http.createServer` method does exactly what you think it does: it creates a server! It takes a function as a callback, and this function will be run every time a user makes a request to that server.
 * The function has two parameters: `req` (request) and `res` (response).
   * The `req` parameter represents all the information coming from the user. You can see what URL they used to request, what parameters they sent you, what headers (headers are meta data that your browser sends with each request, like if you want the response to be in English, Spanish, etc.) they used, etc.
   * The `res` paramenters represents what you want to send back for the request. Here you can set your own headers, set cookies (cookies are bits of information that the client and server pass back-and-forth to each other so you can keep track of who the client is,) the HTTP status code (404 is a status code that means not found; there are many like 200, 302, 403, 500, etc.), and what the response body should be.
@@ -171,7 +171,7 @@ That's it! You made your own full web app!
 * Add it to GitHub in its own repo
 * Make an `/insult` endpoint that returns random insults to be hurled at your foes. Add another button to be able to request insults on your page.
 * Use Parcel and PopMotion to animate your page. Parcel has a `parcel build index.html` [see here][build] command that you could have it build your project into your `public` folder.
-* Style the whole page nicely using CSS! Put your CSS in your public folder and include it the `<head></head>` of you index.html
+* Style the whole page nicely using CSS! Put your CSS in your public folder and include it the `<head></head>` of your index.html
 
 [node]: https://nodejs.org/
 [so]: https://unix.stackexchange.com/questions/16564/why-are-the-first-1024-ports-restricted-to-the-root-user-only
