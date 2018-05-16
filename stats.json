@@ -13,8 +13,8 @@
       "path---meta-html-fcd0009f4a7487042737.js.map"
     ],
     "component---src-pages-index-js": [
-      "component---src-pages-index-js-99f16ae809b8c9c57564.js",
-      "component---src-pages-index-js-99f16ae809b8c9c57564.js.map"
+      "component---src-pages-index-js-f28af9f8f9f422b16d24.js",
+      "component---src-pages-index-js-f28af9f8f9f422b16d24.js.map"
     ],
     "path---js-project": [
       "path---js-project-6c76ee2eefe71c92a885.js",
@@ -73,9 +73,9 @@
       "component---src-pages-404-js-4503918ea3a16cfcdb75.js.map"
     ],
     "commons": [
-      "commons-cfe08c15100186618874.js",
+      "commons-4f76bc7b17eb7ba41005.js",
       "build-js-styles.css",
-      "commons-cfe08c15100186618874.js.map",
+      "commons-4f76bc7b17eb7ba41005.js.map",
       "build-js-styles.css.map"
     ],
     "path---404-html": [
@@ -83,8 +83,8 @@
       "path---404-html-a0e39f21c11f6a62c5ab.js.map"
     ],
     "component---src-templates-lesson-template-js": [
-      "component---src-templates-lesson-template-js-1f50c7d1b7343b5e823e.js",
-      "component---src-templates-lesson-template-js-1f50c7d1b7343b5e823e.js.map"
+      "component---src-templates-lesson-template-js-b41140d2bfa2338bfc04.js",
+      "component---src-templates-lesson-template-js-b41140d2bfa2338bfc04.js.map"
     ],
     "path---final-thoughts": [
       "path---final-thoughts-a9eaf64b92e81d7c97ab.js",
@@ -103,9 +103,9 @@
       "path---libraries-8b515d8dcd02067bb646.js.map"
     ],
     "app": [
-      "app-e1ec7a53fd56a5ad1530.js",
+      "app-04dc5384bb46576b7879.js",
       "build-js-styles.css",
-      "app-e1ec7a53fd56a5ad1530.js.map",
+      "app-04dc5384bb46576b7879.js.map",
       "build-js-styles.css.map"
     ],
     "path---programming-fundamentals": [
