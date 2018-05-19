@@ -29,7 +29,7 @@ Exploring more on `input`s (since they have a bunch of attributes,) here are som
 | `<input type="checkbox" disabled checked />`    |  <input type="checkbox" disabled checked />   |
 | `<input type="color" value="#FF0000" />`        |    <input type="color" value="#FF0000" />     |
 
-`input`s aren't the only ones to ues attributes. In fact they are used everywhere in HTML. This is just to demonstrate to you what they look like and how certain attribrutes do certain things. If something isn't working for you, always check to see if you mispelled one of the tag names or attributes; that's an easy thing to mess up and hard to tell it happened.
+`input`s aren't the only ones to use attributes. In fact they are used everywhere in HTML. This is just to demonstrate to you what they look like and how certain attributes do certain things. If something isn't working for you, always check to see if you misspelled one of the tag names or attributes; that's an easy thing to mess up and hard to tell it happened.
 
 ## Classes
 
@@ -121,7 +121,7 @@ Example, imagine this is a blog post on my website.
 
 For the blog post title, what should I call the class? What tag should I use? I really can use any tag and it'll mechanically work. Using CSS, you can make pretty much any tag look and act like any other. So if it doesn't matter mechanically, why should it matter to me? The same reasons we layed out earlier:
 
-* It makes the site accessible to everyone if you choose good tags. It's your resposibility to make sure the web remains accessible to everyone, including but not limited to: people with limited sight, limited motion of hands, arms or other limbs, limited hearing, and other permanent or temporary disabilities.
+* It makes the site accessible to everyone if you choose good tags. It's your responsibility to make sure the web remains accessible to everyone, including but not limited to: people with limited sight, limited motion of hands, arms or other limbs, limited hearing, and other permanent or temporary disabilities.
 * It'll make it easier for you to come back later and maintain your code or for someone else to understand what you did. Code is communication between you and future readers.
 * It makes it easier for Google, Bing, DuckDuckGo, etc. to crawl your website which means your site will rank higher.
 
@@ -134,4 +134,4 @@ Okay, cool, so let's give that `h1` a good class name. How about `red-title`? It
   <p class="post-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint exercitationem dignissimos veritatis, odit accusamus reiciendis dolorum ab harum dolorem ad et ducimus amet ut eos, itaque nostrum cumque magni soluta.</p>
 </article>
 
-If your title is still called `red-title`, you have a bit of a problem! Now your class name is not only not descriptive of what the item is, it's actually wrong which will make it way more confusing to you and other laters. Now, you may say that you can just change the class name when you go to update but believe me that's not a good option either. If you've used that class 1,000 times throughout your website (not that farfetched) you'd have to update 1,000 different things. No, it's better if we give it a good name the first time, descriptive of not _what it looks like_ but descriptive of _what role it serves._ In this case, we could call it something like `blog-post-title` or `post-head` or something of that nature. That class then always be desciptive of what the thing _is_ and not _what it looks like_.
+If your title is still called `red-title`, you have a bit of a problem! Now your class name is not only not descriptive of what the item is, it's actually wrong which will make it way more confusing to you and other laters. Now, you may say that you can just change the class name when you go to update but believe me that's not a good option either. If you've used that class 1,000 times throughout your website (not that farfetched) you'd have to update 1,000 different things. No, it's better if we give it a good name the first time, descriptive of not _what it looks like_ but descriptive of _what role it serves._ In this case, we could call it something like `blog-post-title` or `post-head` or something of that nature. That class then always be descriptive of what the thing _is_ and not _what it looks like_.
