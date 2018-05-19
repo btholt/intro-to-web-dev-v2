@@ -4,11 +4,11 @@ title: "Effective Patterns for Writing CSS"
 path: "/css-patterns"
 ---
 
-Okay, so we've gotten this far; it's time for you to start thinking about your first project: an imaginary news site. Before that, I want to dwell a bit on somethings we've sort of hand-waved over and want to make sure they're explained to you:
+Okay, so we've gotten this far; it's time for you to start thinking about your first project: an imaginary news site. Before that, I want to dwell a bit on some things we've sort of hand-waved over and want to make sure they're explained to you:
 
 ## Connecting CSS and HTML
 
-You have two choices here, a `link` tag and a `style` tag. I'll gloss over `style` because I don't want you to use it but I want you know it's there.
+You have two choices here, a `link` tag and a `style` tag. I'll gloss over `style` because I don't want you to use it, but I want you to know it's there.
 
 ```htm
 <!DOCTYPE html>
@@ -28,9 +28,9 @@ You have two choices here, a `link` tag and a `style` tag. I'll gloss over `styl
 </html>
 ```
 
-See the `style` tag in the head? This allows you to write CSS directly in an HTML document. Anything inside in the `style` tag will be read as CSS and applied to the whole document. This can be useful to rapidly test something out but in reality you'll should really never need to use `style` tags.
+See the `style` tag in the head? This allows you to write CSS directly in an HTML document. Anything inside in the `style` tag will be read as CSS and applied to the whole document. This can be useful to rapidly test something out, but in reality you should really never need to use `style` tags.
 
-Rather, what we want is to have an HTML document and a separate CSS document that is loaded by the HTML document. This is useful because we get to keep all the **content** (HTML) and the **styling** (CSS) separate. This is called separation of concerns and it's useful in many ways with programming. The idea is that is that you each file to focus on doing one thing and doing it well. Where possible, it's best to separate things so you have many small files instead of a few big ones. Here, we want to separate our CSS and our HTML into different pages.
+Rather, what we want is to have an HTML document and a separate CSS document that is loaded by the HTML document. This is useful because we get to keep all the **content** (HTML) and the **styling** (CSS) separate. This is called separation of concerns, and it's useful in many ways with programming. The idea is that is that you use each file to focus on doing one thing and doing it well. Where possible, it's best to separate things so you have many small files instead of a few big ones. Here, we want to separate our CSS and our HTML into different pages.
 
 What that looks like:
 
@@ -57,7 +57,7 @@ Our style.css file (located in the same folder as the index.html file)
 }
 ```
 
-The key here is the `<link rel="stylesheet" href="./style.css" />`. Let's break it down. A link tag is nearly always found in the `head` and links another file to that HTML document. Nearly always (99.9%) of the time it's to a `stylesheet`, hence the `rel="stylesheet"`. The `href` is where that other file is located. It refers to the file name. In this case, we have a file called `style.css` and it is located in the same folder as the `index.html` file, which is what the `./` part of the `./style.css` means. You could also write it as `"style.css"` if it's in the same directory, it also means it's located in the same folder, but I wanted you to see the `./` because you'll see it everywhere. We'll cover how it works later when we start working more with the terminal.
+The key here is the `<link rel="stylesheet" href="./style.css" />`. Let's break it down. A link tag is nearly always found in the `head` and links another file to that HTML document. Nearly always (99.9% of the time), it's to a `stylesheet`, hence the `rel="stylesheet"`. The `href` is where that other file is located. It refers to the file name. In this case, we have a file called `style.css` and it is located in the same folder as the `index.html` file, which is what the `./` part of the `./style.css` means. You could also write it as `"style.css"` if it's in the same directory, it also means it's located in the same folder, but I wanted you to see the `./` because you'll see it everywhere. We'll cover how it works later when we start working more with the terminal.
 
 ## When to Actually Use the Cascade
 
@@ -95,7 +95,7 @@ Before I told you to use the cascade as little as possible, but I did want to sh
 
 These buttons are relatively similar and differ only in colors but the spacing and text styling are all the same. It'd be nice if we could write the common styles in one rule and then overrule just the colors. We can, using the cascade!
 
-Since those classes come lower on the page, they "win" on the properties that they conflict with, and thus we only overwrite the things we want. Why is this better? Imagine later you want to change the text to be smaller and the border to be thinner. Now instead of having to change for each button, you change it once in their common class, `.ex-btn` and that affects all of them! This principle is generally called **DRY** which stands for "don't repeat yourself", meaning if you can one place for common code or rules, it's better to do that than have it in 50 different places. While having three copies of the same rules doesn't seem like a big deal, many websites will have 10+ sorts of buttons and it quickly becomes impossible to manage.
+Since those classes come lower on the page, they "win" on the properties that they conflict with, and thus we only overwrite the things we want. Why is this better? Imagine later you want to change the text to be smaller and the border to be thinner. Now instead of having to change the style for each button, you change it once in their common class, `.ex-btn` and that affects all of them! This principle is generally called **DRY** which stands for "don't repeat yourself", meaning if you can have one place for common code or rules, it's better to do that than have it in 50 different places. While having three copies of the same rules doesn't seem like a big deal, many websites will have 10+ sorts of buttons and it quickly becomes impossible to manage.
 
 ## DevTools
 
