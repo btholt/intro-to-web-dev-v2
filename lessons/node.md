@@ -105,7 +105,7 @@ Make new index.html in the root directory of this project (where server.js and p
 <body>
   <h1>Complements!</h1>
   <p class="complement">none loaded yet</p>
-  <button class="request-compliment">Request New Complement</button>
+  <button class="request-complement">Request New Complement</button>
   <script src="./public/complements.js"></script>
 </body>
 
