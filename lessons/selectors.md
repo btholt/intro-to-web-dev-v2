@@ -222,6 +222,6 @@ This only selects the element if it is the _first element_ inside of a tag. Othe
 
 We are not going to talk about those today as they're not as frequently used, but they can be very useful in certain circumstances. [See here][pseudoelements] if you're curious but the basic idea is that you can CSS to add additional content/stylings to the HTML. Sometimes useful, often confusing.
 
-[classes]: http://localhost:8000/html-next-steps#classes
+[classes]: https://btholt.github.io/intro-to-web-dev-v2/html-next-steps#classes
 [pseudoclasses]: https://css-tricks.com/pseudo-class-selectors/
 [pseudoelements]: https://css-tricks.com/almanac/selectors/a/after-and-before/
