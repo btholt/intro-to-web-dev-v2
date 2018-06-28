@@ -75,10 +75,10 @@ You'll also see that we used the `typeof` operator. `typeof` tells whatever the 
 
 ## Answer
 
-* [The HTML][html] (you can view source on it)
+* [The HTML][html] (use the developer tools to view the html)
 * [The JavaScript][js]
 * [The CSS][css]
 
-[html]: /calculator.html
-[js]: /calculator.js
-[css]: /calculator.css
+[html]: https://btholt.github.io/intro-to-web-dev-v2/calculator
+[js]: https://btholt.github.io/intro-to-web-dev-v2/calculator.js
+[css]: https://btholt.github.io/intro-to-web-dev-v2/calculator.css
