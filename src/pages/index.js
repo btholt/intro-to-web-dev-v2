@@ -8,7 +8,7 @@ const IndexPage = props => (
   <div className="index">
     <div className="jumbotron gradient">
       <h1>Intro to Web Dev</h1>
-      <h2>v2</h2>
+      <h2>v2 - <a href="https://frontendmasters.com/courses/web-development-v2/">Videos on Frontend Masters</a></h2>
     </div>
 
     <Card

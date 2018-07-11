@@ -41,7 +41,7 @@ Please catch up with me on social media, would love to chat:
 
 I love to teach. It's a challenging task that forces you to peel back all the knowledge you've gain so you can approach someone who lacks the same experience and terminology you have. It forces you to take amorphous concepts floating in your brain and crystalize them into solid concepts that you can describe. It forces you to acknowledge your gaps in knowledge because you'll begin to question things you know others will question. For me to ever master a concept, I have to teach it to someone else.
 
-Unfortunately life gets in the way. These courses take dozens of hours to prepare and to get right. While I'd love to just create content all day, I have a (awesome) day job at Microsoft that demands and deserves my full attention. However I'm grateful to the team at [Frontend Masters][fem] for giving me deadlines and incentive to create these courses and then allowing and encouraging me to open source the materials. Not everyone has the money to pay for these courses which is why these materials are and will be forever open source for you to reference and share. I think the video content is pretty good too and so I'd encourage you to take a look at that on Frontend Masters too if that's in the cards for you.
+Unfortunately life gets in the way. These courses take dozens of hours to prepare and to get right. While I'd love to just create content all day, I have a (awesome) day job at Microsoft that demands and deserves my full attention. However I'm grateful to the team at [Frontend Masters][fem] for giving me deadlines and incentive to create these courses and then allowing and encouraging me to open source the materials. Not everyone has the money to pay for these courses which is why these materials are and will be forever open source for you to reference and share. I think the video content is pretty good too and so I'd encourage you to [take a look at the videos on Frontend Masters][course] too if that's in the cards for you.
 
 [rubber-duck]: https://en.wikipedia.org/wiki/Rubber_duck_debugging
 [frontend-masters]: https://frontendmasters.com/teachers/brian-holt/
@@ -51,3 +51,4 @@ Unfortunately life gets in the way. These courses take dozens of hours to prepar
 [instagram]: https://www.instagram.com/briantholt/
 [github]: https://github.com/btholt
 [linkedin]: https://www.linkedin.com/in/btholt/
+[course]: https://frontendmasters.com/courses/web-development-v2/

@@ -9,7 +9,14 @@ body {
   margin-top: 20px;
 }
 
-.index .jumbotron {
+.index .jumbotron a {
+  color: white;
+  text-decoration: underline;
+}
+
+.index .jumbotron a:hover {
+  color: white;
+  background: #0074d9;
 }
 
 .example-table {
