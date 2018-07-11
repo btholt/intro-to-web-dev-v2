@@ -5,20 +5,20 @@
       "path---tweets-a0e39f21c11f6a62c5ab.js.map"
     ],
     "path---node": [
-      "path---node-90cdd1b7c07a3dfee47e.js",
-      "path---node-90cdd1b7c07a3dfee47e.js.map"
+      "path---node-e78539007683bc8b296a.js",
+      "path---node-e78539007683bc8b296a.js.map"
     ],
     "path---meta-html": [
-      "path---meta-html-fcd0009f4a7487042737.js",
-      "path---meta-html-fcd0009f4a7487042737.js.map"
+      "path---meta-html-e90bf0828fe6a08c55f5.js",
+      "path---meta-html-e90bf0828fe6a08c55f5.js.map"
     ],
     "component---src-pages-index-js": [
-      "component---src-pages-index-js-f28af9f8f9f422b16d24.js",
-      "component---src-pages-index-js-f28af9f8f9f422b16d24.js.map"
+      "component---src-pages-index-js-63cf6478d49d2d42b864.js",
+      "component---src-pages-index-js-63cf6478d49d2d42b864.js.map"
     ],
     "path---js-project": [
-      "path---js-project-6c76ee2eefe71c92a885.js",
-      "path---js-project-6c76ee2eefe71c92a885.js.map"
+      "path---js-project-4bfa98cc06adb23e81d5.js",
+      "path---js-project-4bfa98cc06adb23e81d5.js.map"
     ],
     "path---": [
       "path----557518bd178906f8d58a.js",
@@ -29,53 +29,53 @@
       "path---tools-f4c2f75e86b9311a1dba.js.map"
     ],
     "path---project-html-css": [
-      "path---project-html-css-280ce5b7d968ed8e5764.js",
-      "path---project-html-css-280ce5b7d968ed8e5764.js.map"
+      "path---project-html-css-dcf1618c9fbc3eb7251a.js",
+      "path---project-html-css-dcf1618c9fbc3eb7251a.js.map"
     ],
     "path---dom": [
-      "path---dom-2870c7aab729120bc8aa.js",
-      "path---dom-2870c7aab729120bc8aa.js.map"
+      "path---dom-aca71c7aed5761239890.js",
+      "path---dom-aca71c7aed5761239890.js.map"
     ],
     "path---ajax": [
-      "path---ajax-ef1d3916702fad9f952e.js",
-      "path---ajax-ef1d3916702fad9f952e.js.map"
+      "path---ajax-bc070f3850066ec7aec2.js",
+      "path---ajax-bc070f3850066ec7aec2.js.map"
     ],
     "component---src-layouts-index-js": [
-      "component---src-layouts-index-js-bebd144697aa5cd31f43.js",
-      "component---src-layouts-index-js-bebd144697aa5cd31f43.js.map"
+      "component---src-layouts-index-js-dd77bf705651989194e9.js",
+      "component---src-layouts-index-js-dd77bf705651989194e9.js.map"
     ],
     "path---deploying": [
       "path---deploying-f0ceaf35b8ca93f2e7e2.js",
       "path---deploying-f0ceaf35b8ca93f2e7e2.js.map"
     ],
     "path---selectors": [
-      "path---selectors-746a41cf7502fccd929e.js",
-      "path---selectors-746a41cf7502fccd929e.js.map"
+      "path---selectors-ddbc1977e6f4d0a83268.js",
+      "path---selectors-ddbc1977e6f4d0a83268.js.map"
     ],
     "path---git-and-bash": [
-      "path---git-and-bash-02b189a7417e98b21f97.js",
-      "path---git-and-bash-02b189a7417e98b21f97.js.map"
+      "path---git-and-bash-d2d15158cd6fda678680.js",
+      "path---git-and-bash-d2d15158cd6fda678680.js.map"
     ],
     "path---index": [
-      "path---index-b55568fa9a593128256a.js",
-      "path---index-b55568fa9a593128256a.js.map"
+      "path---index-0a98350905985dc5f187.js",
+      "path---index-0a98350905985dc5f187.js.map"
     ],
     "component---src-pages-tweets-js": [
-      "component---src-pages-tweets-js-d8d013fd18c25a7e0450.js",
-      "component---src-pages-tweets-js-d8d013fd18c25a7e0450.js.map"
+      "component---src-pages-tweets-js-91e55c402b4ef1eae37e.js",
+      "component---src-pages-tweets-js-91e55c402b4ef1eae37e.js.map"
     ],
     "path---layout-css": [
-      "path---layout-css-77f66c8ce360eb51c9a4.js",
-      "path---layout-css-77f66c8ce360eb51c9a4.js.map"
+      "path---layout-css-d09241625ce9ea29168d.js",
+      "path---layout-css-d09241625ce9ea29168d.js.map"
     ],
     "component---src-pages-404-js": [
       "component---src-pages-404-js-4503918ea3a16cfcdb75.js",
       "component---src-pages-404-js-4503918ea3a16cfcdb75.js.map"
     ],
     "commons": [
-      "commons-4f76bc7b17eb7ba41005.js",
+      "commons-4e98a79f4e3f58fbd9e0.js",
       "build-js-styles.css",
-      "commons-4f76bc7b17eb7ba41005.js.map",
+      "commons-4e98a79f4e3f58fbd9e0.js.map",
       "build-js-styles.css.map"
     ],
     "path---404-html": [
@@ -83,62 +83,62 @@
       "path---404-html-a0e39f21c11f6a62c5ab.js.map"
     ],
     "component---src-templates-lesson-template-js": [
-      "component---src-templates-lesson-template-js-b41140d2bfa2338bfc04.js",
-      "component---src-templates-lesson-template-js-b41140d2bfa2338bfc04.js.map"
+      "component---src-templates-lesson-template-js-81af7e37d03dd4e3a6b8.js",
+      "component---src-templates-lesson-template-js-81af7e37d03dd4e3a6b8.js.map"
     ],
     "path---final-thoughts": [
       "path---final-thoughts-a9eaf64b92e81d7c97ab.js",
       "path---final-thoughts-a9eaf64b92e81d7c97ab.js.map"
     ],
     "path---overview": [
-      "path---overview-bf76233c7b58faabc8c9.js",
-      "path---overview-bf76233c7b58faabc8c9.js.map"
+      "path---overview-40117d349d7553146535.js",
+      "path---overview-40117d349d7553146535.js.map"
     ],
     "path---basic-html": [
-      "path---basic-html-2ad854d6dd7ed816987f.js",
-      "path---basic-html-2ad854d6dd7ed816987f.js.map"
+      "path---basic-html-db81b37e0da2eecb079d.js",
+      "path---basic-html-db81b37e0da2eecb079d.js.map"
     ],
     "path---libraries": [
-      "path---libraries-8b515d8dcd02067bb646.js",
-      "path---libraries-8b515d8dcd02067bb646.js.map"
+      "path---libraries-358209787eccde14bd1c.js",
+      "path---libraries-358209787eccde14bd1c.js.map"
     ],
     "app": [
-      "app-04dc5384bb46576b7879.js",
+      "app-ee0c55f63478687603b0.js",
       "build-js-styles.css",
-      "app-04dc5384bb46576b7879.js.map",
+      "app-ee0c55f63478687603b0.js.map",
       "build-js-styles.css.map"
     ],
     "path---programming-fundamentals": [
-      "path---programming-fundamentals-b63904590d498623db8c.js",
-      "path---programming-fundamentals-b63904590d498623db8c.js.map"
+      "path---programming-fundamentals-cbb513e635878d72411f.js",
+      "path---programming-fundamentals-cbb513e635878d72411f.js.map"
     ],
     "path---html-next-steps": [
-      "path---html-next-steps-3a53a829a190b7bbef0a.js",
-      "path---html-next-steps-3a53a829a190b7bbef0a.js.map"
+      "path---html-next-steps-6f51372dcbcbe14dbee5.js",
+      "path---html-next-steps-6f51372dcbcbe14dbee5.js.map"
     ],
     "path---css-patterns": [
-      "path---css-patterns-5a36a1d90de69bf6749a.js",
-      "path---css-patterns-5a36a1d90de69bf6749a.js.map"
+      "path---css-patterns-298f5a67bcbb5e69676e.js",
+      "path---css-patterns-298f5a67bcbb5e69676e.js.map"
     ],
     "path---404": [
       "path---404-a0e39f21c11f6a62c5ab.js",
       "path---404-a0e39f21c11f6a62c5ab.js.map"
     ],
     "path---functions-and-scope": [
-      "path---functions-and-scope-f5b7060dcafa3cfcc77d.js",
-      "path---functions-and-scope-f5b7060dcafa3cfcc77d.js.map"
+      "path---functions-and-scope-da7b0917b0d48d421ee3.js",
+      "path---functions-and-scope-da7b0917b0d48d421ee3.js.map"
     ],
     "path---intro": [
-      "path---intro-442c3a9a95d493241256.js",
-      "path---intro-442c3a9a95d493241256.js.map"
+      "path---intro-b64a4e1bc626122e68a0.js",
+      "path---intro-b64a4e1bc626122e68a0.js.map"
     ],
     "path---basic-css": [
-      "path---basic-css-49f5b8aafe398587f08a.js",
-      "path---basic-css-49f5b8aafe398587f08a.js.map"
+      "path---basic-css-97585bd811204a802a93.js",
+      "path---basic-css-97585bd811204a802a93.js.map"
     ],
     "path---objects-and-arrays": [
-      "path---objects-and-arrays-c833ab7221860c8857d9.js",
-      "path---objects-and-arrays-c833ab7221860c8857d9.js.map"
+      "path---objects-and-arrays-6bd8584fdf4b6e30f74f.js",
+      "path---objects-and-arrays-6bd8584fdf4b6e30f74f.js.map"
     ]
   }
 }
