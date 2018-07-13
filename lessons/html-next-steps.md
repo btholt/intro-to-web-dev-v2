@@ -39,7 +39,6 @@ Classes are special attributes that can go on any tag, though some you won't use
 <div class="header">
   <h1 class="header-title">My Great Blog</h1>
 </div>
-</div>
 <div class="blog-posts">
   <div class="post">
     <h1 class="post-title">When Not to Overextend House Metaphors</h1>
@@ -65,7 +64,6 @@ Let's see what an ID would look like:
 ```html
 <div class="header">
   <h1 class="header-title">My Great Blog</h1>
-</div>
 </div>
 <div class="blog-posts">
   <div id="house-metaphors-post" class="post">

@@ -43,4 +43,4 @@ All of our "visual" HTML will go in here. All your `div`s, `span`s, `img`s, etc.
 
 ## `<script></script>`, `<style></style>`, and `<link />`
 
-We're about to talk about CSS and JavaScript, but know they have the about three tags, `script`, `style`, and `link` are used for them, `script` being used for JavaScript and the latter two for CSS.
+We're about to talk about CSS and JavaScript, but know they have the above three tags, `script`, `style`, and `link` are used for them, `script` being used for JavaScript and the latter two for CSS.

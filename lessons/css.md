@@ -35,7 +35,7 @@ So far so good. What if we wanted to instead make the h1 be red instead? Like th
 
 <h1 class="step-one">This is an h1.</h1>
 
-We're going to write a CSS rule that makes the the case. That would look like:
+We're going to write a CSS rule that makes the case. That would look like:
 
 ```css
 h1 {
