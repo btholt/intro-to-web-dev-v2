@@ -32,7 +32,7 @@ The API we're going to use is [dog.ceo][dog]. It's a simple, silly API that will
 Make a new file called `doggos.js` and put the following:
 
 ```js
-const BREEDS_URL = "https://dog.ceo/api/breeds/image/random";
+const DOG_URL = "https://dog.ceo/api/breeds/image/random";
 
 const promise = fetch(DOG_URL);
 
