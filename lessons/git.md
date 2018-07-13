@@ -117,7 +117,7 @@ Many companies host their code there for all their various open and closed sourc
 
 Today, we're going to create our own repo.
 
-![GitHub nav-bar demonstrating where the + symbol is to create a new repo](/gh-nav.png)
+![GitHub nav-bar demonstrating where the + symbol is to create a new repo](/images/gh-nav.png)
 
 Click the + (which I highlighted in red for you) in the nav and create a new repository. Name the new repo whatever you would like, do not add the license or README, and continue.
 
