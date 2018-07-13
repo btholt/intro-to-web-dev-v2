@@ -298,9 +298,6 @@ So now we've shown you the `justify-content` property, let's examine `align-item
 ```html
 <style>
   .ai-fe {
-    display: flex;
-    width: 100%;
-    border: 1px solid black;
     align-items: flex-end;
   }
 </style>

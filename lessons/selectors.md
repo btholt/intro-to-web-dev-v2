@@ -9,7 +9,7 @@ Before this section, you learned how to make CSS rules to affect how your webpag
 <p class="red-text">This is a red p.</p>
 <p class="green-text">This is a green p.</p>
 
-So how do we achieve this black magic? Do you remember [the section on classes][classes] in the HTML portion? We're going to use that now. Classes allow us to style the same **tags** (e.g. `p`, `div`, `span`, etc.) differently because we can select the class instead of the tag. This is where having useful class names helps. So now, if we have an `h1` that's the title of a blog post and an `h1` that's the branding logo at the top, we can do this:
+So how do we achieve this black magic? Do you remember [the section on classes](/html-next-steps#classes) in the HTML portion? We're going to use that now. Classes allow us to style the same **tags** (e.g. `p`, `div`, `span`, etc.) differently because we can select the class instead of the tag. This is where having useful class names helps. So now, if we have an `h1` that's the title of a blog post and an `h1` that's the branding logo at the top, we can do this:
 
 ```htm
 <h1 class="branding">My Super Cool Brand</h1>
@@ -222,6 +222,5 @@ This only selects the element if it is the _first element_ inside of a tag. Othe
 
 We are not going to talk about those today as they're not as frequently used, but they can be very useful in certain circumstances. [See here][pseudoelements] if you're curious but the basic idea is that you can CSS to add additional content/stylings to the HTML. Sometimes useful, often confusing.
 
-[classes]: http://localhost:8000/html-next-steps#classes
 [pseudoclasses]: https://css-tricks.com/pseudo-class-selectors/
 [pseudoelements]: https://css-tricks.com/almanac/selectors/a/after-and-before/
