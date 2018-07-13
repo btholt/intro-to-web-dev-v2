@@ -76,10 +76,6 @@ You'll also see that we used the `typeof` operator. `typeof` tells whatever the 
 
 ## Answer
 
-* [The HTML][html] (you can view source on it)
-* [The JavaScript][js]
-* [The CSS][css]
-
-[html]: /calculator.html
-[js]: /calculator.js
-[css]: /calculator.css
+* [The HTML](/calculator.html) (you can view source on it)
+* [The JavaScript](/calculator.js)
+* [The CSS](/calculator.css)
