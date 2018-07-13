@@ -15,9 +15,9 @@ Project time!
 
 We are going to rebuild the calculator on iOS! If you've never seen that before, here it is:
 
-<!-- ![Calculator build in HTML and CSS](./images/calculator.png) -->
+<!-- ![Calculator build in HTML and CSS](/images/calculator.png) -->
 
-<iframe class="calc" width="400" height="595" title="Calculator" src="./calculator.html" frameborder="no" allowtransparency="true"></iframe>
+<iframe class="calc" width="400" height="595" title="Calculator" src="/intro-to-web-dev-v2/calculator.html" frameborder="no" allowtransparency="true"></iframe>
 
 My implementation of it is embedded here on the page so feel free to play with it.
 

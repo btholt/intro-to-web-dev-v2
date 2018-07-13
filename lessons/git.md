@@ -8,7 +8,7 @@ Coding is rarely a one-person job. Most frequently you are on a team of people, 
 
 This is what git is for.
 
-![git logo](./images/git.png)
+![git logo](/images/git.png)
 
 Git is a distributed source control management tool. That's a fancy way of saying that it's an easy way to share code and work on it together with a large team. It's also a very convenient way to backup your code off your computer and an easy way for you to post code online so other people can use it.
 
@@ -117,7 +117,7 @@ Many companies host their code there for all their various open and closed sourc
 
 Today, we're going to create our own repo.
 
-![GitHub nav-bar demonstrating where the + symbol is to create a new repo](./images/gh-nav.png)
+![GitHub nav-bar demonstrating where the + symbol is to create a new repo](/gh-nav.png)
 
 Click the + (which I highlighted in red for you) in the nav and create a new repository. Name the new repo whatever you would like, do not add the license or README, and continue.
 

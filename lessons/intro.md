@@ -22,7 +22,7 @@ Lastly, this isn't a get-rich-quick scheme. Learning to code is hard and require
 
 ## Who Am I?
 
-![Brian drinking a beer](./images/brian.jpg)
+![Brian drinking a beer](/images/brian.jpg)
 
 My name is Brian Holt. I'm presently (as of writing) a cloud developer advocate at Microsoft. That means I talk to people why I think Azure is a pretty cool place to deploy your code. I write a lot of code demos and help with some open source libraries. I've taught a lot of lessons on [Frontend Masters][frontend-masters] and used to be on the frontend development podcast [Front End Happy Hour][fehh]. Previous to that, I was a senior or staff JavaScript and Node engineer at LinkedIn, Netflix, Reddit, Needle, KSL.com, and NuSkin.
 
@@ -37,7 +37,7 @@ Please catch up with me on social media, would love to chat:
 
 ## Why was this course created?
 
-![Frontend Masters Logo](./images/FrontendMastersLogo.png)
+![Frontend Masters Logo](/images/FrontendMastersLogo.png)
 
 I love to teach. It's a challenging task that forces you to peel back all the knowledge you've gain so you can approach someone who lacks the same experience and terminology you have. It forces you to take amorphous concepts floating in your brain and crystalize them into solid concepts that you can describe. It forces you to acknowledge your gaps in knowledge because you'll begin to question things you know others will question. For me to ever master a concept, I have to teach it to someone else.
 

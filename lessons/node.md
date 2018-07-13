@@ -4,7 +4,7 @@ order: 19
 path: "/node"
 ---
 
-![Node.js Logo](./images/node.png)
+![Node.js Logo](/images/node.png)
 
 So far we've been very focused on the browser. Historically this has been the purpose of JavaScript: make websites interactive. However as time has gone by people have really embraced JavaScript as a language. An enterprising individual named Ryan Dahl wrote a connecting layer between Google Chrome's v8 engine, which is what actually runs JavaScript inside of Chrome, and the system. He called it Node.js (often just called Node) and the community just exploded with popularity.
 
@@ -28,7 +28,7 @@ server.listen(3000);
 
 Go to your terminal and run `node server.js`. You should see the "listening on http://localhost:3000" message logged out. Navigate your browser to http://localhost:3000. You should see the text `hello!` responded back to you. Look at your terminal and it should show two requests, one for `/` and one for `/favicon.ico`. The `/` represents the base, home page that you requested by going to the bare domain `localhost:3000`. If you went to http://localhost:3000/lol then you'd see `/lol` there (you can actually try that if you want to.) The `/favicon.ico` request is the browser trying to get the favicon which is that little icon that the browser puts on the browser tab.
 
-![location of the favicon](./images/favicon.png)
+![location of the favicon](/images/favicon.png)
 
 The browser just knows to look for it at that URL. In our case we're not serving an image for that (it's also just seeing the `hello!` text) so nothing is displayed there.
 

@@ -115,7 +115,7 @@ document.querySelector(".add-doggo").addEventListener("click", addNewDoggo);
 
 Now you can add as many doggos as you want! Here's my example:
 
-<iframe class="doggos" height="595" title="Doggos" src="./doggos.html" frameborder="no" allowtransparency="true"></iframe>
+<iframe class="doggos" height="595" title="Doggos" src="/intro-to-web-dev-v2/doggos.html" frameborder="no" allowtransparency="true"></iframe>
 
 For your extra-credit project, here are some cool ways to expand this project:
 
