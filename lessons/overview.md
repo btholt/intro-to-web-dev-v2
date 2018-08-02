@@ -23,7 +23,7 @@ Now, if I want to order delivery to my house, I have to call someone else. Someo
 To recap:
 
 1. The HTML is the structure. It's going to contain all the text, the various images tied to the text, and it will generally group things together. Just like the drywall in your house, HTML doesn't do anything other than exist. It relies on other things to do things for it and to it.
-1. The CSS is the blueprint. It's all the rules of what goes where, what color it is, what size it is, what font it is, what the decorative background images are, Like HTML, CSS doesn't _do_ anything, it's just a set of rules that describe what things go where and how they look.
+1. The CSS is the blueprint. It's all the rules of what goes where, what color it is, what size it is, what font it is, what the decorative background images are, like HTML, CSS doesn't _do_ anything, it's just a set of rules that describe what things go where and how they look.
 1. The frontend / client JavaScript is the smart home. It's all the cool pre-programmed stuff you can tell your house to do. JavaScript is what can change the HTML and CSS to react to various stimuli.
 1. The backend code (we'll still use JavaScript) is the pizza place. It's a place where we can request things from and it will send back what we ask for. Or we can send things to it, like when you upload a new photo to your social media account. One server serves many clients, just like one pizza place serves many homes.
 
