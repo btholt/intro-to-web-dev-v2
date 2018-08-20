@@ -8,9 +8,9 @@ So you built this awesome Node.js application and now you want to show your frie
 
 Luckily for us there are lots of hosting providers out there. And there are many types of hosting providers too! Today I'll show you just one of those providers but I'll make you aware of different alternatives. Ultimately they're all good options.
 
-To be transparent: I work for Microsoft and my job is to help people get into Microsoft's cloud, thus I'm going to show you how to use Microsoft's cloud. No one at Microsoft mandated I had to do it this way; I do because I genuinely believe it's a good options. That being said, Google, Amazon, DigitalOcean, IBM, RedHat, RackSpace, etc. all have great clouds and I invite you to check them out to see if they suit your needs better. Also checkout [Jem Young's course][jem] to see the differences between Amazon and DigitalOcean.
+To be transparent: I work for Microsoft and my job is to help people get into Microsoft's cloud, thus I'm going to show you how to use Microsoft's cloud. No one at Microsoft mandated I had to do it this way; I do because I genuinely believe it's a good option. That being said, Google, Amazon, DigitalOcean, IBM, RedHat, RackSpace, etc. all have great clouds and I invite you to check them out to see if they suit your needs better. Also checkout [Jem Young's course][jem] to see the differences between Amazon and DigitalOcean.
 
-Okay, so let's get started. [Click here][azure]. You need either a valid credit card and a valid phone number. This is free so even though you verify with your credit card, you will not be charged unless you later change it to a non-free account. I believe it does a "verification hold" of $1.00 to make sure it's a real card. Again, it'll never charge without your consent. You have to convert it to a non-free account.
+Okay, so let's get started. [Click here][azure]. You need either a valid credit card or a valid phone number. This is free so even though you verify with your credit card, you will not be charged unless you later change it to a non-free account. I believe it does a "verification hold" of $1.00 to make sure it's a real card. Again, it'll never charge without your consent. You have to convert it to a non-free account.
 
 1. Click sign up for a free account
 1. Fill out all the sign up info
