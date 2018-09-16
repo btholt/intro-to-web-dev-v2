@@ -108,7 +108,7 @@ Okay, next steps here:
 
 This one is less obvious. Now we have to understand specificity even more. **A class is considered more specific than a tag**. So a class selector "overpowers" a tag selector. It's more specific. Therefore, even though the `h1` selector comes last, the `.title` wins because it's more specific. This is why it's useful to do _everything_ using classes; you don't need to worry about these specificity wars if everything is equal and try to have it some you don't have conflicting rules (which is not always possible.)
 
-A useful but imperfect way to think about this is to think of specificity like a number. The class is like the tens digit, and the tag is like the ones digit. So something with one class selector would have a number `10` specificity and something with one tag selector would a specificty of `1`. The bigger number wins. This is imperfect because one class selector is still bigger than 10 tag selectors, but it's a useful mental device to quickly evaluate mentally which tag is more specific.
+A useful but imperfect way to think about this is to think of specificity like a number. The class is like the tens digit, and the tag is like the ones digit. So something with one class selector would have a number `10` specificity and something with one tag selector would a specificity of `1`. The bigger number wins. This is imperfect because one class selector is still bigger than 10 tag selectors, but it's a useful mental device to quickly evaluate mentally which tag is more specific.
 
 Last one and we'll move on:
 
