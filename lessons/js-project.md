@@ -24,7 +24,7 @@ My implementation of it is embedded here on the page so feel free to play with i
 
 Let's going over the requirements:
 
-* The calculator should like the above image
+* The calculator should look like the above image
 * The calculator should function like a normal calculator
 * **Do not** implement `%` or `.`. You can assume everything will be an integer.
 * `C` means clear. When a user clicks it, it should clear everything and go back to the first state it was in when the page loaded.
