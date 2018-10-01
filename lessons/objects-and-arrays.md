@@ -183,7 +183,7 @@ console.log(courses);
 
 The first thing we do is add an element to the end using the push function that arrays have. It "pushes" the element on the end.
 
-Below that, we're overrinding index 2 with a new course. This will throw away what was there before and set it to be what we've set it to be.
+Below that, we're overriding index 2 with a new course. This will throw away what was there before and set it to be what we've set it to be.
 
 Okay, now, given that, what if we wanted to `console.log` everything in the array? You already have all the tools to do that? Let's see to do it.
 
