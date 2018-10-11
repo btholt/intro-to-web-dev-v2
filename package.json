@@ -27,7 +27,7 @@
   "main": "n/a",
   "scripts": {
     "build": "gatsby build --prefix-paths",
-    "deploy": "npm -s run build && gh-pages -d ./public -b gh-pages",
+    "deploy": "gatsby build --prefix-paths && gh-pages -d ./public -b gh-pages",
     "develop": "gatsby develop",
     "format": "prettier --trailing-comma es5 --no-semi --single-quote --write \"src/**/*.js\""
   },

@@ -15,9 +15,10 @@ Project time!
 
 We are going to rebuild the calculator on iOS! If you've never seen that before, here it is:
 
-<!-- ![Calculator build in HTML and CSS](/images/calculator.png) -->
+<!-- ![Calculator build in HTML and CSS](./images/calculator.png) -->
 
 <!-- locally you'll need to do /calculator.html without /intro-to-web-dev-v2/ -->
+
 <iframe class="calc" width="400" height="595" title="Calculator" src="/intro-to-web-dev-v2/calculator.html" frameborder="no" allowtransparency="true"></iframe>
 
 My implementation of it is embedded here on the page so feel free to play with it.
@@ -76,6 +77,6 @@ You'll also see that we used the `typeof` operator. `typeof` tells whatever the 
 
 ## Answer
 
-* [The HTML](/calculator.html) (you can view source on it)
-* [The JavaScript](/calculator.js)
-* [The CSS](/calculator.css)
+* [The HTML](/intro-to-web-dev-v2/calculator.html) (you can view source on it)
+* [The JavaScript](/intro-to-web-dev-v2/calculator.js)
+* [The CSS](/intro-to-web-dev-v2/calculator.css)
