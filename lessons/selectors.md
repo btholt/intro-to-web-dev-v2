@@ -129,7 +129,7 @@ Last one and we'll move on:
 <h1 class="title-5 main-brand-5">Another Example</h1>
 ```
 
-The first selector, `h1.main-brand` is how you select both a tag and a class at the same time. As you may imagine, this is more specific than the third selector, `.main-brand`. If you remember our shortcut trick, the first selector would be 11, the second would be 20, and the last would be 1, making the second selector the most specific, and indeed it is. The first selector isn't a good idea to do; using a tag and a class is usually a bad idea and means you're likely doing something weird in your code. I'm just showing you because it does happen in a lot in exisitng code.
+The first selector, `h1.main-brand` is how you select both a tag and a class at the same time. As you may imagine, this is more specific than the third selector, `.main-brand`. If you remember our shortcut trick, the first selector would be 11, the second would be 20, and the last would be 1, making the second selector the most specific, and indeed it is. The first selector isn't a good idea to do; using a tag and a class is usually a bad idea and means you're likely doing something weird in your code. I'm just showing you because it does happen in a lot in existing code.
 
 ## IDs and !important
 
