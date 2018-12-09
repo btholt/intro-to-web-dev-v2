@@ -1,6 +1,6 @@
 # Welcome
 
-Welcome to the code behind Introduction to Web Development v2. The course can be found [here][course]. It best explains itself so read about it there.
+Welcome to the code behind [Introduction to Web Development v2][course].
 
 ## Devlopment
 
