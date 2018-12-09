@@ -1,6 +1,6 @@
 # Welcome
 
-Welcome to the code behind [Introduction to Web Development v2][course].
+Welcome to the code behind the [course website][course] for the [Introduction to Web Development v2](https://frontendmasters.com/courses/web-development-v2/) course on Frontend Masters.
 
 ## Devlopment
 
