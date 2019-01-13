@@ -42,7 +42,7 @@ promise
     return processingPromise;
   })
   .then(function(processedResponse) {
-    console.log(breeds);
+    console.log(processedResponse);
   });
 
 console.log("this will log first");
