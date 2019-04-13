@@ -9,7 +9,7 @@ Before this section, you learned how to make CSS rules to affect how your webpag
 <p class="red-text">This is a red p.</p>
 <p class="green-text">This is a green p.</p>
 
-So how do we achieve this black magic? Do you remember [the section on classes](/html-next-steps#classes) in the HTML portion? We're going to use that now. Classes allow us to style the same **tags** (e.g. `p`, `div`, `span`, etc.) differently because we can select the class instead of the tag. This is where having useful class names helps. So now, if we have an `h1` that's the title of a blog post and an `h1` that's the branding logo at the top, we can do this:
+So how do we achieve this black magic? Do you remember [the section on classes](/intro-to-web-dev-v2/html-next-steps#classes/) in the HTML portion? We're going to use that now. Classes allow us to style the same **tags** (e.g. `p`, `div`, `span`, etc.) differently because we can select the class instead of the tag. This is where having useful class names helps. So now, if we have an `h1` that's the title of a blog post and an `h1` that's the branding logo at the top, we can do this:
 
 ```htm
 <h1 class="branding">My Super Cool Brand</h1>
