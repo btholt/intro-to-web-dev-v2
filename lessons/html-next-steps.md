@@ -79,7 +79,7 @@ Let's see what an ID would look like:
 
 Notice the first blog post has an `id` attribute in addition to its class. Notice I gave it a name _very_ specific to that post; I can probably guarantee that the only house metaphor post on my website so that name works. Later we'll go more in depth on this, but you don't want to use CSS to tag IDs. You probably don't need to use JavaScript to target it; classes normally suffice.
 
-So why do we have them? Well, they're really old and have been around forever so that's the mean reason. Another reason that _is_ very useful about IDs is that I now can make a link that takes you directly to that ID in the page. Try clicking this [link](#the-h1-part-way-down-the-page) (it won't leave this page.)
+So why do we have them? Well, they're really old and have been around forever so that's the main reason. Another reason that _is_ very useful about IDs is that I now can make a link that takes you directly to that ID in the page. Try clicking this [link](#the-h1-part-way-down-the-page) (it won't leave this page.)
 
 <h3 id="the-h1-part-way-down-the-page">The link should bring you here.</h3>
 
