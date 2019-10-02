@@ -51,11 +51,11 @@ Classes are special attributes that can go on any tag, though some you won't use
 </div>
 ```
 
-What you see above is very typical looking HTML. Most tags will have classes. Now when I go to write CSS later, I can target _just_ `post-title`s. If I wrote a rule targeting `h1`s, I'd get all the `post-title`s **and** the `header-title` as well. As you may imagine, you'll want the site header's h1 to look and act different than the blog post title, just like the headers in this lesson look different than the "INTRO TO WEB DEV V2" in the header.
+What you see above is very typical looking HTML. Most tags will have classes. Now when I go to write CSS later, I can target _just_ `post-title`s. If I wrote a rule targeting `h1`s, I'd get all the `post-title`s **and** the `header-title` as well. As you may imagine, you'll want the site header's h1 to look and act differently than the blog post title, just like the headers in this lesson look different than the "INTRO TO WEB DEV V2" in the header.
 
 ## IDs
 
-IDs are far less useful than classes. Whereas you'll be using classes everywhere and frequently, you should be using IDs very sparingly. As you see in our above `blog-posts` HTML, we can _re-use_ classes like `post` and `post-title`. This is **extremely** important. As a coder, you want a piece of code and use it a lot. As coders, we want to write as little code as possible (which we'll explore why later, for now trust me.) For now, be satisfied that I get to write a little bit of code that governs `post` and have it affect every `post` on the page.
+IDs are far less useful than classes. Whereas you'll be using classes everywhere and frequently, you should be using IDs very sparingly. As you can see in our above `blog-posts` HTML, we can _re-use_ classes like `post` and `post-title`. This is **extremely** important. As a coder, you want a piece of code and use it a lot. As coders, we want to write as little code as possible (which we'll explore why later, for now trust me.) For now, be satisfied that I get to write a little bit of code that governs `post` and have it affect every `post` on the page.
 
 Let's contrast that with IDs. When you designate something with an ID, you're affirming that **this is the only one of those on your website**. Not even just that page, but your whole website. _Sometimes_ that is useful; just not very often. Some other coders and tutorials will tell you to _never_ use IDs; I think that's misguided. IDs are a sledgehammer. Most problems don't require a sledgehammer. However sometimes you have problems that need a sledgehammer and then you're really grateful that you have one.
 
@@ -79,7 +79,7 @@ Let's see what an ID would look like:
 
 Notice the first blog post has an `id` attribute in addition to its class. Notice I gave it a name _very_ specific to that post; I can probably guarantee that the only house metaphor post on my website so that name works. Later we'll go more in depth on this, but you don't want to use CSS to tag IDs. You probably don't need to use JavaScript to target it; classes normally suffice.
 
-So why do we have them? Well, they're really old and have been around forever so that's the mean reason. Another reason that _is_ very useful about IDs is that I now can make a link that takes you directly to that ID in the page. Try clicking this [link](#the-h1-part-way-down-the-page) (it won't leave this page.)
+So why do we have them? Well, they're really old and have been around forever so that's the main reason. Another reason that _is_ very useful about IDs is that I now can make a link that takes you directly to that ID in the page. Try clicking this [link](#the-h1-part-way-down-the-page) (it won't leave this page.)
 
 <h3 id="the-h1-part-way-down-the-page">The link should bring you here.</h3>
 
