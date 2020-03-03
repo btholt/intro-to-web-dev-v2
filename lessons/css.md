@@ -96,7 +96,7 @@ The `h1` will be colored blue. This is because it has a parent (or ancestor) tag
 
 ## Experiment
 
-That's a basic primer to CSS and properties. Play around with the below CodePen and see what sorts of trouble you can cause. The key with CSS is experimentation. As you may imagine, all the various properties will interact with each other, sometimes to your detriment and sometimes in really cool and interesting ways. We'll explore more how to CSS to position and size things, but for now mess around with these styling techniques. To switch between the HTML and CSS, click the buttons at the top of the CodePen.
+That's a basic primer to CSS and properties. Play around with the CodePen below and see what sorts of trouble you can cause. The key with CSS is experimentation. As you may imagine, all the various properties will interact with each other, sometimes to your detriment and sometimes in really cool and interesting ways. We'll explore more how to CSS to position and size things, but for now mess around with these styling techniques. To switch between the HTML and CSS, click the buttons at the top of the CodePen.
 
 <iframe height='600' scrolling='no' title='CSS Playground' src='//codepen.io/btholt/embed/ELaxOB/?height=265&theme-id=dark&default-tab=css,result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'>See the Pen <a href='https://codepen.io/btholt/pen/ELaxOB/'>CSS Playground</a> by Brian Holt (<a href='https://codepen.io/btholt'>@btholt</a>) on <a href='https://codepen.io'>CodePen</a>.
 </iframe>
