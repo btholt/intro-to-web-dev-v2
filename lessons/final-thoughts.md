@@ -16,7 +16,7 @@ My final advice for you:
 * Don't burn out. If you go too hard for too long, it causes all sorts of problems
 * If something interests you then learn everything you can about it! That's what keeps programming fun, learning fun stuff. Chase your interest around like a butterfly
 * Don't compare yourself to others. You have a perfect knowledge of your shortcomings and an imperfect knowledge of their accomplishments. This usually means you're underestimating yourself and overestimating others
-* Programming is a cylce of feeling like an idiot and feeling like the smartest person alive. Don't let either feeling go to your head
+* Programming is a cycle of feeling like an idiot and feeling like the smartest person alive. Don't let either feeling go to your head
 * Do not underestimate the role of ethics in being in a programmer. Use your power to create for good and to make the world a better place
 * The programming world is one that recently has not been inviting to any one not a white man. If you're a white man, actively seek to make your environment inclusive to people who don't look like you. If you're not a white man, I have no advice for you but know I'm rooting for you. Seek advice from someone wiser than me. In either case, no matter who you are, we make this problem by working on it actively and working toward a better future together.
 
