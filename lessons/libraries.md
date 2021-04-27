@@ -97,10 +97,11 @@ npm install --global parcel-bundler
 It's going to install a bunch of stuff for you so that you can then use the tool [parcel][parcel]. Parcel is a tool that makes it super simple to bundle all of your code together into one neat little package. You can also install whatever you want from npm and include that too! From there:
 
 1. Okay, go to your index.html and delete the `<script src="https://unpkg.com/popmotion@8.1.24/dist/popmotion.global.min.js"></script>` line.
-1. Go to your animation.js file and add to the top of the file as the very first line: `const popmotion = require("popmotion");`. This will tell the bundler to bring in Popmotion for you.
-1. Navigate in your terminal to the root of your animation project. Run `npm init -y`. This will generate a `package.json` file for you which is how Node projects handle their configurations. We need to be able to keep track of dependencies and this will do that.
-1. Run `npm install popmotion`. This will install Popmotion locally on your computer instead of loading it from somewhere else. Now your users will download just one file from you instead one file from you and one file from another server. Notice in your animation project there's now a `node_modules` directory: this is where all your installed dependencies (which is what you call the libraries you install from npm) go.
-1. Run `parcel index.html`. It should tell you that a server is running at http://localhost:1234 and it'll tell you it took like 8 seconds to bundle everything for you.
+2. Go to your animation.js file and add to the top of the file as the very first line: `import * as popmotion from "popmotion"`. This will tell the bundler to bring in Popmotion for you.
+3. Navigate in your terminal to the root of your animation project. Run `npm init -y`. This will generate a `package.json` file for you which is how Node projects handle their configurations. We need to be able to keep track of dependencies and this will do that.
+4. Run `npm install popmotion`. This will install Popmotion locally on your computer instead of loading it from somewhere else. Now your users will download just one file from you instead one file from you and one file from another server. Notice in your animation project there's now a `node_modules` directory: this is where all your installed dependencies (which is what you call the libraries you install from npm) go.
+5. change the dependency in the `package.json` to `"popmotion": "8.1.24"` 
+6. Run `parcel index.html`. It should tell you that a server is running at http://localhost:1234 and it'll tell you it took like 8 seconds to bundle everything for you.
 
 Now you'll have a local development server working for you! Open that localhost link and see your same site running. Localhost is an alias for your own computer that the browser understands. The `:1234` is the port it's running on. Think of it like selecting the right input on your TV. If you plug your Xbox into HDMI3, you have tuned your TV to HDMI3 in order to see the picture and hear the sound. Same thing with ports. Your computer has thousands of them, you just have to tune to the right one to connect to it.
 
