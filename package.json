@@ -16,7 +16,7 @@
     "gatsby-remark-prismjs": "^2.0.1",
     "gatsby-source-filesystem": "^1.5.11",
     "gatsby-transformer-remark": "^1.7.28",
-    "prismjs": "^1.14.0",
+    "prismjs": "^1.24.0",
     "react-twitter-widgets": "^1.7.1",
     "shuffle-array": "^1.0.1"
   },
