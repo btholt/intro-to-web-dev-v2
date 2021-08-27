@@ -110,9 +110,9 @@ On the left, you'll see the HTML that you can edit. On the right you'll see what
 
 <!-- images -->
 <div>
-  <img src="http://www.placepuppy.net/1p/100/100" alt="an adorable puppy" />
-  <img src="http://www.placepuppy.net/2p/100/100" alt="an adorable puppy" />
-  <img src="http://www.placepuppy.net/3p/100/100" alt="an adorable puppy" />
+  <img src="https://place-puppy.com/200x200" alt="an adorable puppy" />
+  <img src="https://place-puppy.com/100x300" alt="an adorable puppy" />
+  <img src="https://place-puppy.com/300x100" alt="an adorable puppy" />
 </div>
 
 <!-- inputs -->
