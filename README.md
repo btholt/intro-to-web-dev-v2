@@ -1,6 +1,10 @@
-# Welcome
+# [Complete Introduction to Web Development, v2][course]
 
-Welcome to the code behind the [course website][course] for the [Introduction to Web Development v2](https://frontendmasters.com/courses/web-development-v2/) course on Frontend Masters.
+[![Frontend Masters](/lessons/images/FrontendMastersLogo.png)][fem]
+
+## Welcome
+
+Welcome to the code behind the [course website][website] for the [Introduction to Web Development v2][course] course on Frontend Masters.
 
 ## Devlopment
 
@@ -26,4 +30,6 @@ Content licensed under Attribution-NonCommercial 4.0 International
 
 Code to run the site itself is licenced under Apache 2.0.
 
-[course]: https://btholt.github.io/intro-to-web-dev-v2/
+[fem]: https://frontendmasters.com/
+[website]: https://btholt.github.io/intro-to-web-dev-v2/
+[course]: https://frontendmasters.com/courses/web-development-v2/

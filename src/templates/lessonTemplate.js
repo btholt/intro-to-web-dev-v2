@@ -1,6 +1,7 @@
 import React from "react";
 import Link from "gatsby-link";
 import RandomTweet from "../components/RandomTweet";
+import { graphql } from 'gatsby'
 
 export default function Template({ data }) {
   const { markdownRemark, allMarkdownRemark } = data; // data.markdownRemark holds our post data

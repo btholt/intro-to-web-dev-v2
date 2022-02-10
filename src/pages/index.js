@@ -1,6 +1,6 @@
 import React from "react";
 import Card from "../components/TOCCard";
-import Link from "gatsby-link";
+import { graphql } from 'gatsby';
 
 import "./index.css";
 

@@ -1,7 +1,7 @@
 const path = require("path");
 
-exports.createPages = ({ boundActionCreators, graphql }) => {
-  const { createPage } = boundActionCreators;
+exports.createPages = ({ actions, graphql }) => {
+  const { createPage } = actions;
 
   const lessonTemplate = path.resolve(`src/templates/lessonTemplate.js`);
 
