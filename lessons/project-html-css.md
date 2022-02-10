@@ -6,7 +6,7 @@ path: "/project-html-css"
 
 We're going to work on a project together to work on your HTML and CSS skills and so you can see how these puzzle pieces fit together. We are going to make a news site together, similar to The New York Times. Your project will look like this:
 
-![Similated news site, see example project for HTML and CSS version](./images/html-css-project.png)
+![Similated news site, see example project for HTML and CSS version](images/html-css-project.png)
 
 You don't have to get it exact. The point here is for you to break down this layout into smaller pieces and solve the smaller problems before piecing it back together into this.
 
