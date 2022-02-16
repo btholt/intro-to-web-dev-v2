@@ -13,7 +13,7 @@ So how do we achieve this black magic? Do you remember [the section on classes](
 
 ```htm
 <h1 class="branding">My Super Cool Brand</h1>
-<!-- other htmls … these don't have to be sibiling tags -->
+<!-- other htmls … these don't have to be sibling tags -->
 <h1 class="blog-post-title">My Cool Blog Post</h1>
 ```
 
@@ -171,7 +171,7 @@ Do you want to wreck the wrecking ball? Using the previous HTML, look at this CS
 <h1 id="site-brand-2" class="nav-head-2 nav-main-2 other-useful-class-2">The Brand of my Website</h1>
 ```
 
-Rekt. The `h1`'s `color` is going to be green but the `border` is going to be red. This is a _terrible_ idea. Never use `!important`. As you can see, it's gets messy quickly and it makes the logic really tough to follow even for experienced devs.
+Rekt. The `h1`'s `color` is going to be green but the `border` is going to be red. This is a _terrible_ idea. Never use `!important`. As you can see, it gets messy quickly and it makes the logic really tough to follow even for experienced devs.
 
 ## Pseudoclasses
 
@@ -216,7 +216,7 @@ The CSS for this is:
 </ol>
 ```
 
-This only selects the element if it is the _first element_ inside of a tag. Otherwise it won't select it. There are numerous other CSS classes; check out the CSS-Tricks article if you want learn more.
+This only selects the element if it is the _first element_ inside of a tag. Otherwise it won't select it. There are numerous other CSS classes; check out the CSS-Tricks article if you want to learn more.
 
 ## Pseudoelements
 
