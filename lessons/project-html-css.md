@@ -10,7 +10,7 @@ We're going to work on a project together to work on your HTML and CSS skills an
 
 You don't have to get it exact. The point here is for you to break down this layout into smaller pieces and solve the smaller problems before piecing it back together into this.
 
-[Here is my complete version](/intro-to-web-dev-v2/news.html)
+[Here is my complete version](/news.html)
 
 Here are some tips and guidelines:
 
