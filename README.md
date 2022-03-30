@@ -6,7 +6,7 @@
 
 Welcome to the code behind the [course website][website] for the [Introduction to Web Development v2][course] course on Frontend Masters.
 
-## Devlopment
+## Development
 
 To develop locally
 
