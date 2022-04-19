@@ -19,7 +19,7 @@
     "gatsby-remark-prismjs": "^6.7.0",
     "gatsby-source-filesystem": "^4.7.0",
     "gatsby-transformer-remark": "^5.7.0",
-    "prismjs": "^1.26.0",
+    "prismjs": "^1.27.0",
     "react-twitter-widgets": "^1.10.0",
     "shuffle-array": "^1.0.1"
   },
