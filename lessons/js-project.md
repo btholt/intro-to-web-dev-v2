@@ -77,6 +77,6 @@ You'll also see that we used the `typeof` operator. `typeof` tells whatever the 
 
 ## Answer
 
-* [The HTML](/intro-to-web-dev-v2/calculator.html) (you can view source on it)
-* [The JavaScript](/intro-to-web-dev-v2/calculator.js)
-* [The CSS](/intro-to-web-dev-v2/calculator.css)
+* [The HTML](/calculator.html) (you can view source on it)
+* [The JavaScript](/calculator.js)
+* [The CSS](/calculator.css)
