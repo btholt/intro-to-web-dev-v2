@@ -74,7 +74,7 @@ Okay, one step more complicated:
 <h1 class="title-2 main-brand-2">Branding here</h1>
 ```
 
-First of all, yes, one tag can have multiple classes, and that can be useful. Okay, so what is this going to look like? In the eyes of CSS, those two selectors are equal since they both have the same **specificity** (key word, you'll see it used a lot when talking about CSS.) They both specific one class which makes them equal. So in this case, since `.title` comes last in the CSS, it wins. The color will be green. What about the border? Since `.title` doesn't conflict, it'll have a black border too. So keep in mind that each of these "conflicts" is resolved on a property-by-property basis. So the end result in an `h1` that has a black border and green font.
+First of all, yes, one tag can have multiple classes, and that can be useful. Okay, so what is this going to look like? In the eyes of CSS, those two selectors are equal since they both have the same **specificity** (key word, you'll see it used a lot when talking about CSS.) They both specific one class which makes them equal. So in this case, since `.title-2` comes last in the CSS, it wins. The color will be green. What about the border? Since `.title-2` doesn't conflict, it'll have a black border too. So keep in mind that each of these "conflicts" is resolved on a property-by-property basis. So the end result in an `h1` that has a black border and green font.
 
 ```html
 <style>
@@ -89,7 +89,7 @@ First of all, yes, one tag can have multiple classes, and that can be useful. Ok
 <h1 class="title-3 main-brand-3">Branding here</h1>
 ```
 
-This how you add two classes to one selector. Notice there's no space between the two class names (that means something else.) The selector `.main-brand.title` will only match a tag that has **both** classes. If has only one of the two, it will not match. As you may imagine, since it has two classes, it's more specific, and therefore it wins.
+This how you add two classes to one selector. Notice there's no space between the two class names (that means something else.) The selector `.main-brand-3.title-3` will only match a tag that has **both** classes. If has only one of the two, it will not match. As you may imagine, since it has two classes, it's more specific, and therefore it wins.
 
 Okay, next steps here:
 
@@ -106,7 +106,7 @@ Okay, next steps here:
 <h1 class="title-4">Another h1</h1>
 ```
 
-This one is less obvious. Now we have to understand specificity even more. **A class is considered more specific than a tag**. So a class selector "overpowers" a tag selector. It's more specific. Therefore, even though the `h1` selector comes last, the `.title` wins because it's more specific. This is why it's useful to do _everything_ using classes; you don't need to worry about these specificity wars if everything is equal and try to have it some you don't have conflicting rules (which is not always possible.)
+This one is less obvious. Now we have to understand specificity even more. **A class is considered more specific than a tag**. So a class selector "overpowers" a tag selector. It's more specific. Therefore, even though the `h1` selector comes last, the `.title-4` wins because it's more specific. This is why it's useful to do _everything_ using classes; you don't need to worry about these specificity wars if everything is equal and try to have it some you don't have conflicting rules (which is not always possible.)
 
 A useful but imperfect way to think about this is to think of specificity like a number. The class is like the tens digit, and the tag is like the ones digit. So something with one class selector would have a number `10` specificity and something with one tag selector would a specificity of `1`. The bigger number wins. This is imperfect because one class selector is still bigger than 10 tag selectors, but it's a useful mental device to quickly evaluate mentally which tag is more specific.
 
@@ -129,7 +129,7 @@ Last one and we'll move on:
 <h1 class="title-5 main-brand-5">Another Example</h1>
 ```
 
-The first selector, `h1.main-brand` is how you select both a tag and a class at the same time. As you may imagine, this is more specific than the third selector, `.main-brand`. If you remember our shortcut trick, the first selector would be 11, the second would be 20, and the last would be 10, making the second selector the most specific, and indeed it is. The first selector isn't a good idea to do; using a tag and a class is usually a bad idea and means you're likely doing something weird in your code. I'm just showing you because it does happen in a lot in existing code.
+The first selector, `h1.main-brand-5` is how you select both a tag and a class at the same time. As you may imagine, this is more specific than the third selector, `.main-brand-5`. If you remember our shortcut trick, the first selector would be 11, the second would be 20, and the last would be 10, making the second selector the most specific, and indeed it is. The first selector isn't a good idea to do; using a tag and a class is usually a bad idea and means you're likely doing something weird in your code. I'm just showing you because it does happen in a lot in existing code.
 
 ## IDs and !important
 
